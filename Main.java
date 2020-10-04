@@ -21,7 +21,92 @@ public class Main implements Directions {
     public void runJerooCode() {
         Jeroo bugs = new Jeroo(0,  0, EAST, 90);
         Jeroo daffy = new Jeroo(0, 23, WEST, 90);
- 
+
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      daffy.plant();
+      daffy.turn(LEFT);
+      bugs.plant();
+      bugs.turn(RIGHT);
+       bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plantHop();
+      daffy.plantHop();
+      bugs.plant();
+      daffy.plant();
+      daffy.turn(LEFT);
+      bugs.turn(RIGHT);
+      daffy.leave();
+      bugs.leave();
+      
+      
+
+
+
+
+
     }
 
 }

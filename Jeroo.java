@@ -4,7 +4,16 @@
  */
 public class Jeroo extends JerooBase {
     // Put any optional helper methods here
+    public void plantHop() {
+      plant(); hop();
+    }
 
+    public void leave() {
+      while (!isWater(AHEAD)){
+        hop();
+        plant();
+      }
+    }
     
     // Do NOT touch the code below here
     public Jeroo() {super();}
